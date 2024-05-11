@@ -1,0 +1,71 @@
+.section4{
+    width:90%;
+    text-align: center;
+
+}
+
+.section5 div h2{
+    color:#944E63;
+    font-weight:bold;
+
+}
+
+.section5 div p{
+    font-weight:700;
+}
+
+.section5{
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.boxs{
+    width:600px;
+    height:300px;
+    background-color: #944E63;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:30px;
+}
+
+.boxs p{
+    color:white;
+    font-weight:600 !important;
+    width:80%;
+    line-height: 40px;
+    text-align: left;
+}
+
+.act{
+    justify-content: center;
+    text-align: center;
+}
+
+
+@media(max-width:850px){
+    .section5{
+        flex-direction:column;
+    }
+    .school{
+        width:100% !important;
+        margin-bottom:50px;
+    }
+
+    .act{
+        display:flex;
+        flex-wrap: wrap !important;
+    }
+
+    
+}
+
+@media(max-width:650px){
+    .section4{
+        margin-top:0px !important;
+    }
+    .wrapper{
+        height:32vh;
+    }
+}
+

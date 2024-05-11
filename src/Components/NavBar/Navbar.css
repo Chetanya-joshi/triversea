@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+.title{
+    background:#944E63;
+    height:50px;
+    
+}
+
+.title ul{
+    display:flex;
+    gap:100px;
+    align-items: center;
+}
+
+
+
+.title ul li{
+    list-style:none;
+    font-size:20px;
+    text-transform: uppercase;
+    color:#FFE7E7;
+    font-weight: bold;
+    margin-top:10px;
+    /* font-size:10px; */
+}
+
+.navbar{
+    width:85vw;
+    display:flex;
+    align-items: center;
+    margin:0px auto;
+}
+
+.leftside{
+    display:flex;
+    gap:30px;
+}
+
+.box{
+    border:1px solid #944E63;
+    padding:5px 15px;
+    display:flex;
+    gap:15px;
+}
+
+.box input{
+    outline:none;
+    border:none;
+    width:500px;
+}
+
+.box input::placeholder{
+    font-size:13px;
+}
+
+.searchbar{
+    display:flex;
+    align-items: center;
+}
+
+.logo{
+    font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    text-transform: uppercase;
+    font-size:35px;
+    color:#944E63;
+    display:flex;
+    align-items: center;
+}
+
+.logo p{
+    margin:0px;
+}
+
+.rightside{
+    gap:50px;
+}
+
+.icon{
+    gap:5px;
+    
+}
+
+
+.icon button{
+    border-radius:30px;
+    background-color: #944E63;
+    border:none;
+    padding:5px 20px
+}
+
+.navname{
+    background-color: #944E63;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.navname ul{
+    display:flex;
+    gap:70px;
+    justify-content: center;
+    padding:0px;
+    margin:0px;
+    align-items: center;
+}
+
+.navname ul li{
+    list-style:none;
+color:#FFE7E7;
+    align-items: center;
+    cursor:pointer;
+
+}
+
+.navname ul li:hover{
+    color:black;
+}
+
+.navname ul span{
+    color:#FFE7E7;
+}
+
+
+
+@media(max-width:850px){
+    .box input{
+        width:390px;
+    }
+
+    .rightside{
+        margin:0px auto;
+    }
+    .navname ul{
+        gap:52px;
+    }
+    .leftside{
+        margin:auto;
+    }
+    .navname ul{
+        gap:6px;
+    }
+}
+
+@media(max-width:650px){
+    .box input{
+        width:100%;
+    }
+    .slide img{
+        height:80% !important;
+    }
+    .leftside{
+        margin:auto;
+    }
+    .navname ul li{
+        font-size:13px;
+    }
+    .navbar ul span{
+        font-size:13px;
+    }
+    .boxs{
+        width:300px !important;
+    }
+}
+
+
+@media(max-width:400px){
+    .rightside{
+        gap:20px;
+    }
+    /* .wrapper{
+        height:301vh !important;
+    } */
+}
